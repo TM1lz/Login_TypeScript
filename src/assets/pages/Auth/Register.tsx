@@ -24,6 +24,7 @@ export default function Register() {
     }
   
     try {
+      console.log(formData)
       const response = await fetch('https://back-end-rainha-alimentos-czh5glhzs-alisson-ps-projects.vercel.app/register', {
         method: 'POST',
         headers: {
